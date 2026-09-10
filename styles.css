@@ -255,6 +255,7 @@ aside ul {
 }
 
 .remove-icon {
+  opacity: 0;
   height: 1rem;
   margin-left: 0.5rem;
 
@@ -262,8 +263,8 @@ aside ul {
   transition: opacity 0.2s;
 }
 
-.remove-icon:hover {
-  opacity: 0.7;
+.expense:hover .remove-icon {
+  opacity: 1;
 }
 
 @media (min-width: 1100px) {
